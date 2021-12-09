@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stripe-payments",
+  "info": {
+    "singularName": "stripe-payment",
+    "pluralName": "stripe-payments",
+    "displayName": "Stripe-payment",
+    "name": "stripe-payment"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "stripeProductId": {
+      "type": "string"
+    },
+    "stripePaymentStatus": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "simple-stripe",
+  "version": "0.0.0",
+  "description": "This is the description of the plugin.",
+  "strapi": {
+    "name": "Simple Stripe",
+    "icon": "plug",
+    "description": "A simple plugin to process payments with Stripe"
+  },
+  "dependencies": {
+    "execa": "^5.0.0",
+    "fs-extra": "^9.1.0",
+    "lodash": "^4.17.21",
+    "stripe": "^8.143.0"
+  },
+  "author": {
+    "name": "A Strapi developer",
+    "email": "",
+    "url": ""
+  },
+  "maintainers": [
+    {
+      "name": "A Strapi developer",
+      "email": "",
+      "url": ""
+    }
+  ],
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
